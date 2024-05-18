@@ -1,0 +1,87 @@
+/* src/components/Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar .hamburger {
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 60px;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: rgb(163, 85, 170);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  font-size: 1em;
+}
+
+.navbar a:hover {
+  background: rgb(155, 46, 155);
+}
+
+@media (max-width: 768px) {
+  .navbar .hamburger {
+    display: block;
+    margin-right: 60px;
+  }
+  
+  .navbar ul {
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    background-color: #333;
+    width: 100%;
+    height: calc(100vh - 60px);
+    transition: right 0.3s ease;
+    padding: 0px;
+    align-items: center;
+  }
+  
+  .navbar ul.open {
+    right: 0;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin: 10px 0;
+  }
+
+  .navbar a {
+    width: 200px; /* Make buttons take full width in mobile view */
+    padding: 15px; /* Increase padding for better touch interaction */
+  }
+}
