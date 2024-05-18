@@ -18,7 +18,7 @@ const Navbar = () => {
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
         <li><Link to="/beheler_flowers" onClick={() => setIsOpen(false)}>Home</Link></li>
         <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
-        <li><Link to="/products" onClick={() => setIsOpen(false)}>My Products</Link></li>
+        <li><Link to="/products" onClick={() => setIsOpen(false)}>Products</Link></li>
         <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
         <li><Link to="/events" onClick={() => setIsOpen(false)}>Events</Link></li>
       </ul>
