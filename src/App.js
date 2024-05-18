@@ -10,10 +10,9 @@ import Products from './components/Products';
 import About from './components/About'; // Import the new About component
 
 function App() {
-   const basename = process.env.NODE_ENV === 'development' ? '/' : '/beheler_flowers';
 
    return (
-      <Router basename={basename}>
+      <Router >
          <div className="App">
             <Navbar />
             <div className="main-content">
