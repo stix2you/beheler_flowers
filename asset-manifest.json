@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/beheler_flowers/static/css/main.8ae94ba4.css",
-    "main.js": "/beheler_flowers/static/js/main.47fed9fa.js",
+    "main.js": "/beheler_flowers/static/js/main.af69f9d1.js",
     "static/js/453.776fb9f0.chunk.js": "/beheler_flowers/static/js/453.776fb9f0.chunk.js",
     "static/media/background.jpg": "/beheler_flowers/static/media/background.0a7d28e58c338a46547b.jpg",
     "index.html": "/beheler_flowers/index.html",
     "main.8ae94ba4.css.map": "/beheler_flowers/static/css/main.8ae94ba4.css.map",
-    "main.47fed9fa.js.map": "/beheler_flowers/static/js/main.47fed9fa.js.map",
+    "main.af69f9d1.js.map": "/beheler_flowers/static/js/main.af69f9d1.js.map",
     "453.776fb9f0.chunk.js.map": "/beheler_flowers/static/js/453.776fb9f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ae94ba4.css",
-    "static/js/main.47fed9fa.js"
+    "static/js/main.af69f9d1.js"
   ]
 }
