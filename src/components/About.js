@@ -21,8 +21,8 @@ const About = () => {
           content="Kerry Beheler
                   Flowers for Bees and Butterflies
                   Mount Horeb
-                  Landline phone: 608-437-6938
-                  Cell phone: 608-207-8043" 
+                  Landline phone: 608-437-XXXX
+                  Cell phone: 608-207-XXXX" 
         />
       </div>
     </div>

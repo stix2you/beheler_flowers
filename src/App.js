@@ -10,23 +10,25 @@ import Products from './components/Products';
 import About from './components/About'; // Import the new About component
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <div className="main-content">
-          <Routes>
-            <Route path="/" element={<MainView />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/events" element={<Events />} />
-          </Routes>
-        </div>
-        <Footer />
-      </div>
-    </Router>
-  );
+   const basename = process.env.NODE_ENV === 'development' ? '/' : '/beheler_flowers';
+
+   return (
+      <Router basename={basename}>
+         <div className="App">
+            <Navbar />
+            <div className="main-content">
+               <Routes>
+                  <Route path="/beheler_flowers" element={<MainView />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/products" element={<Products />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/events" element={<Events />} />
+               </Routes>
+            </div>
+            <Footer />
+         </div>
+      </Router>
+   );
 }
 
 export default App;
