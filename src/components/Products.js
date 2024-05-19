@@ -10,9 +10,9 @@ const products = [
 const Products = () => {
   return (
     <div className="products">
-      <div className="background" />
-      <div className="content">
-        <h2>Our Products</h2>
+      <div className="products-background" />
+      <div className="products-content">
+        <h2>My Products</h2>
         <div className="product-list">
           {products.map((product, index) => (
             <div key={index} className="product">

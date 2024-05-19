@@ -1,17 +1,12 @@
 import React from 'react';
 import './Events.css';
-
-const events = [
-  { date: 'June 15, 2024', name: 'Farmers Market in Belleville' },
-  { date: 'July 20, 2024', name: 'Farmers Market in Blanchardville' },
-  // Add more events here
-];
+import events from './eventsData';
 
 const Events = () => {
   return (
     <div className="events">
-      <div className="background" />
-      <div className="content">
+      <div className="events-background" />
+      <div className="events-content">
         <h2>Upcoming Events</h2>
         <ul>
           {events.map((event, index) => (

@@ -1,47 +1,49 @@
 /* src/components/MainView.css */
 .main-view {
-  position: relative;
-  text-align: center;
-  color: white;
+   position: relative;
+   text-align: center;
+   color: white;
 }
 
-.background {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: url('/background.jpg') no-repeat center center;
-  background-size: cover;
-  z-index: -1;
+.main-view-background {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url('/background.jpg') no-repeat center center;
+   background-size: cover;
+   z-index: -1;
 }
 
-.content {
-  position: relative;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px;
+.main-view-content {
+   position: relative;
+   z-index: 1;
+   background: rgba(0, 0, 0, 0.4);
+   padding: 20px;
+   border-radius: 10px;
+   margin: 20px;
 }
 
 .feature-photos {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
 }
 
 .photo {
-  width: 30%;
-  height: 200px;
-  background: gray;
-  margin: 10px;
-  border-radius: 10px;
+   width: 30%;
+   height: 200px;
+   background: gray;
+   margin: 10px;
+   border-radius: 10px;
 }
 
-.intro-info, .events-info {
-  background: rgba(0, 0, 0, 0.7); /* Increased opacity for better contrast */
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
+.intro-info,
+.events-info {
+   background: rgba(0, 0, 0, 0.0);
+   /* Adjust opacity to bring out separate border on cards */
+   padding: 20px;
+   border-radius: 10px;
+   margin-top: 20px;
 }
-
-

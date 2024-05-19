@@ -9,8 +9,8 @@ const MainView = () => {
 
   return (
     <div className="main-view">
-      <div className="background" />
-      <div className="content">
+      <div className="main-view-background" />
+      <div className="main-view-content">
         <div className="feature-photos">
           <div className="photo photo1">Photo 1 Placeholder</div>
           <div className="photo photo2">Photo 2 Placeholder</div>

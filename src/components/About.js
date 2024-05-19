@@ -6,8 +6,8 @@ import './About.css';
 const About = () => {
   return (
     <div className="about">
-      <div className="background" />
-      <div className="content">
+      <div className="about_background" />
+      <div className="about_content">
         <FeatureCard 
           title="Kerry Beheler Flowers for Bees and Butterflies" 
           content="A little about my business: I started in 2015. I sell at local farmers markets including Belleville, Blanchardville, New Glarus, the Farley Center in Verona and a November 'Santa in the Greenhouse' event. I sell native perennial flower transplant 'plugs' in the spring, annual and perennial flower seeds in the fall, and cut flower bouquets composed of annual and native perennial flowers. All flowers in the bouquets can be dried and their seeds dispersed for self-seeding." 

@@ -4,8 +4,8 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="background" />
-      <div className="content">
+      <div className="contact-background" />
+      <div className="contact-content">
         <h2>Contact Me!</h2>
         <form>
           <input type="text" name="name" placeholder="Your Name" required />
