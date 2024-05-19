@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/beheler_flowers/static/css/main.8ae94ba4.css",
-    "main.js": "/beheler_flowers/static/js/main.52606d51.js",
+    "main.css": "/beheler_flowers/static/css/main.e0a417d0.css",
+    "main.js": "/beheler_flowers/static/js/main.b7e262a8.js",
     "static/js/453.776fb9f0.chunk.js": "/beheler_flowers/static/js/453.776fb9f0.chunk.js",
     "static/media/background.jpg": "/beheler_flowers/static/media/background.0a7d28e58c338a46547b.jpg",
     "index.html": "/beheler_flowers/index.html",
-    "main.8ae94ba4.css.map": "/beheler_flowers/static/css/main.8ae94ba4.css.map",
-    "main.52606d51.js.map": "/beheler_flowers/static/js/main.52606d51.js.map",
+    "main.e0a417d0.css.map": "/beheler_flowers/static/css/main.e0a417d0.css.map",
+    "main.b7e262a8.js.map": "/beheler_flowers/static/js/main.b7e262a8.js.map",
     "453.776fb9f0.chunk.js.map": "/beheler_flowers/static/js/453.776fb9f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ae94ba4.css",
-    "static/js/main.52606d51.js"
+    "static/css/main.e0a417d0.css",
+    "static/js/main.b7e262a8.js"
   ]
 }
