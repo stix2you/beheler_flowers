@@ -19,12 +19,12 @@ const MainView = () => {
         <div className="intro-info">
           <FeatureCard 
             title="Welcome to Flowers for Bees and Butterflies"
-            content="Kerry Beheler started this business in 2015. She sells at local farmers markets including Belleville, Blanchardville, New Glarus, the Farley Center in Verona and a November 'Santa in the Greenhouse' event. She sells native perennial flower transplant 'plugs' in the spring, annual and perennial flower seeds in the fall, and cut flower bouquets composed of annual and native perennial flowers. All flowers in the bouquets can be dried and their seeds dispersed for self-seeding."
+            content="Info paragraph about you.  Can be in first person instead?  Kerry Beheler started this business in 2015. She sells at local farmers markets including Belleville, Blanchardville, New Glarus, the Farley Center in Verona and a November 'Santa in the Greenhouse' event. She sells native perennial flower transplant 'plugs' in the spring, annual and perennial flower seeds in the fall, and cut flower bouquets composed of annual and native perennial flowers. All flowers in the bouquets can be dried and their seeds dispersed for self-seeding."
           />
         </div>
         <div className="events-info">
           <FeatureCard 
-            title="Upcoming Events"
+            title="Meet me at these Events!"
             content={eventDetails}
           />
         </div>

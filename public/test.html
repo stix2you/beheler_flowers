@@ -1,0 +1,23 @@
+
+The behavior you're describing suggests that the path to the image might not be correct, or there may be an issue with the image file itself or the way it's being served.
+
+Here are a few additional troubleshooting steps to help identify and resolve the issue:
+
+Double-check the file location and name: Ensure that the image file facebook.svg is located in the public/img directory and is correctly named.
+
+Simplify the test: Create a basic HTML file in the public directory to test if the image is accessible:
+
+html
+Copy code
+<!-- public/test.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Image</title>
+</head>
+<body>
+  <img src="/img/facebook.svg" alt="Facebook logo">
+</body>
+</html>

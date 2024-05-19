@@ -5,7 +5,10 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>Find me on <a href="#facebook">Facebook</a>, <a href="#twitter">Twitter</a>, and <a href="#sales">Sales Page</a></p>
+      <p>Find me on:</p>
+      <a href="#facebook" className="social-media__link" target="_blank" rel="noopener noreferrer">
+        <img src="beheler_flowers/img/facebook.svg" className="social-media__img" alt="facebook logo" />
+      </a>
     </footer>
   );
 }

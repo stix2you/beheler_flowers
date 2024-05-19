@@ -1,5 +1,8 @@
 /* src/components/Footer.css */
 .footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    position: fixed;
    bottom: 0;
    width: 100%;
@@ -9,15 +12,27 @@
    text-align: center;
    padding: 10px 0;
    z-index: 1000;
- }
- 
- .footer a {
+}
+
+.footer a {
    text-decoration: none;
    color: white;
    margin: 0 10px;
- }
- 
- .footer a:hover {
+}
+
+.footer a:hover {
    color: #ddd;
- }
- 
+}
+
+.social-media__link {
+   display: inline-block;
+   margin-left: 5px;
+}
+
+.social-media__img {
+   width: 30px;
+   /* Adjust the size as needed */
+   height: 30px;
+   /* Adjust the size as needed */
+   vertical-align: middle;
+}
